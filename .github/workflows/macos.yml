@@ -3,6 +3,8 @@ name: macos
 on:
   pull_request:
     branches: [ main ]
+  push:
+    branches: [21.1.4]
 
 jobs:
   build:
